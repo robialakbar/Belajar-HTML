@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+}
+
+h2, h3 {
+    color: blue;
+    
+}
+footer {
+    padding: 1em;
+    color: white;
+    background-color: bisque;
+}
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+.profil header {
+    text-align: center;
+}
+
+footer {
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+}
+
+#contoh {
+    color: pink;
+    background-color: black;
+}
+
+#contoh > h2 {
+    color: aqua;
+    background: white;
+}
+
+#contoh > h3 {
+    color: blanchedalmond;
+    background-color: wheat;
+}
+
+.featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;     
+}

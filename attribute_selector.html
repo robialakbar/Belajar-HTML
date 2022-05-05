@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        a[href] {
+            color: blue;
+        }
+
+        a[href^="#"] {
+            background-color: gold;
+        }
+
+        a[href*="example"] {
+            background-color: silver;
+        }
+
+        a[href*="insensitive"] {
+            background-color: cyan;
+        }
+
+        a[href$=".org"] {
+            background-color: red;
+        }
+    </style>
+    <title>Belajar Attribute Selector</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <ul>
+            <li><a href="#internal">internal link</a></li>
+            <li><a href="http://example.com">example link</a></li>
+            <li><a href="#insensitive">Insensitive internal link</a></li>
+            <li><a href="http://example.org">example org link</a></li>
+        </ul>
+    </main>
+    <footer></footer>
+</body>
+</html>
