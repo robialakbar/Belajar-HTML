@@ -76,6 +76,8 @@ footer {
 nav {
     background-color: rgb(76, 13, 149);
     padding: 5px;
+    position: sticky;
+    top: 0;
 }
 nav li {
     display: inline; 
@@ -96,4 +98,46 @@ main {
     margin: 0;
     padding:20px;
 
+}
+
+#content {
+    float: left;
+    width: 70%;
+}
+
+.profil {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+    align-items: center;
+}
+
+main {
+    overflow: auto;
+    padding: 20px;
+}
+
+*  {
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1000px) {
+    .profil {
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    #content {
+        width: 100%;
+        padding: 20px;
+    }
+    
+    
+}
+
+header {
+    display: inline;
 }
